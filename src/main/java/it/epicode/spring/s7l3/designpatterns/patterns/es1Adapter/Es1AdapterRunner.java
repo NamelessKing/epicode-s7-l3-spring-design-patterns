@@ -2,6 +2,7 @@ package it.epicode.spring.s7l3.designpatterns.patterns.es1Adapter;
 
 import it.epicode.spring.s7l3.designpatterns.patterns.shared.PatternCommandLineRunner;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -18,6 +19,7 @@ import java.util.Date;
  * risolvendo il problema di incompatibilità tra Info e DataSource.
  */
 @Component
+@Order(1)
 public class Es1AdapterRunner implements PatternCommandLineRunner {
 
     @Override
