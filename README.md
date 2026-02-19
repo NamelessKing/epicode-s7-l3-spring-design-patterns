@@ -3,6 +3,12 @@
 ## Descrizione
 Repository di esercitazione per l'implementazione dei design patterns in Spring Boot.
 
+## Configurazione
+- Java 17+
+- Spring Boot 3.x
+- PostgreSQL 14+
+- Maven 3.8+
+
 ## Pattern Implementati
 
 ### ES1 - Adapter Pattern
@@ -12,22 +18,10 @@ Repository di esercitazione per l'implementazione dei design patterns in Spring 
 
 ### ES2 - Composite Pattern
 - Struttura gerarchica di oggetti
-- Libro → Sezione → Pagina
+- Libro -> Sezione -> Pagina
 - Utilizzo: organizzazione albero di documenti
 
 ### ES3 - Chain of Responsibility
 - Catena di handler per processare richieste
-- Gerarchia militare (Tenente → Maggiore → Colonnello → Generale)
+- Gerarchia militare
 - Utilizzo: approvazioni gerarchiche
-
-## Configurazione
-- Java 17+
-- Spring Boot 3.x
-- PostgreSQL 14+
-- Maven 3.8+
-
-## Installazione e Avvio
-1. Clone del repository
-2. Configurazione env.properties
-3. mvnw clean install
-4. mvnw spring-boot:run
