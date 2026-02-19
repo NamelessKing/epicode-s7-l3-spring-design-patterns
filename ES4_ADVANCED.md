@@ -11,3 +11,8 @@
 - Repository contains advanced pattern studies
 - Each pattern includes practical examples
 - Integration with Spring Boot ecosystem
+
+## HOTFIX: Critical null pointer exception resolved
+- Fixed NPE in Adapter pattern implementation
+- Added null checks before object instantiation
+- Improved error handling
