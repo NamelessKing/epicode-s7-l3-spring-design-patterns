@@ -25,3 +25,9 @@ Repository di esercitazione per l'implementazione dei design patterns in Spring 
 - Catena di handler per processare richieste
 - Gerarchia militare
 - Utilizzo: approvazioni gerarchiche
+
+## Installazione e Avvio
+1. Clone del repository
+2. Configurazione env.properties
+3. mvnw clean install
+4. mvnw spring-boot:run
